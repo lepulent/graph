@@ -1,38 +1,25 @@
+/ 20220121210104
+// https://raw.githubusercontent.com/lepulent/graph/main/jsontestgraph
+
 {
   "nodes": [
- 
+   
     {
-      "id": "DELETE-10",
-      "height": 50
+      "id": "Frey",
+      "height": 50,
+      "fill": {
+        "src": "https://awoiaf.westeros.org/images/thumb/d/da/House_Frey.svg/500px-House_Frey.svg.png"
+      }
     },
-
     {
-      "id": "DELETE-20",
-      "height": 50
-    },
- 
-    {
-      "id": "DELETE-30",
-      "height": 50
-    },
-
-
-    {
-      "id": "DELETE-40",
-      "height": 50
-    },
-  
-    
-
-    {
-      "id": "DELETE-50",
+      "id": "Bracken",
       "height": 50,
       "fill": {
         "src": "https://awoiaf.westeros.org/images/thumb/e/e5/House_Bracken.svg/500px-House_Bracken.svg.png"
       }
     },
     {
-      "id": "DELETE-60",
+      "id": "Blackwood",
       "height": 50,
       "fill": {
         "src": "https://awoiaf.westeros.org/images/thumb/e/e1/House_Blackwood.svg/500px-House_Blackwood.svg.png"
@@ -40,18 +27,17 @@
     }
   ],
   "edges": [
-   
     {
-      "from": "DELETE-10",
-      "to": "DELETE-20"
+      "from": "Frey",
+      "to": "Bracken"
     },
     {
-      "from": DELETE-20",
-      "to": "DELETE-30"
+      "from": "Bracken",
+      "to": "Blackwood"
     },
     {
-      "from": "DELETE-30",
-      "to": "DELETE-10"
+      "from": "Blackwood",
+      "to": "Frey"
     }
   ]
 }
