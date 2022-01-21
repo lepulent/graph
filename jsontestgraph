@@ -162,6 +162,10 @@
       "from": "Lannister",
       "to": "Brave Companions"
     },
+     {
+      "from": "Night's Watch",
+      "to": "Mallister"
+    },
     {
       "from": "Frey",
       "to": "Stark"
